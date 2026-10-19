@@ -1,0 +1,14 @@
+MevdZ GHST Beta - Minecraft 1.8.9 Forge mod
+
+Bu proje Java ile yazilmistir ve Forge 1.8.9 (11.15.1.2318) icin hazirlanmistir.
+Kaynak kodlari: src/main/java
+
+GitHub'dan JAR alma:
+1) Bu klasordeki tum icerigi GitHub deposuna yukle; .github klasoru de dahil olmali.
+2) GitHub'da Actions sekmesine git ve Build calismasinin bitmesini bekle.
+3) Yesil tikli Build sonucunu ac, Artifacts bolumunden MevdZGHSTBeta ZIP dosyasini indir.
+4) ZIP'i ac ve MevdZGHSTBeta-1.0-beta.jar dosyasini .minecraft\mods klasorune koy.
+5) Oyunu Forge 1.8.9 (11.15.1.2318) profiliyle ac.
+
+Tuslar ve mod ayarlari icin oyunda RSHIFT menu tusunu kullan.
+Ayarlar .minecraft/config/mevdzghst.properties dosyasina kaydedilir.

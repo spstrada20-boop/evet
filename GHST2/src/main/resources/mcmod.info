@@ -1,0 +1,10 @@
+[
+{
+  "modid": "mevdzghst",
+  "name": "MevdZ GHST Beta",
+  "description": "MevdZ GHST Beta - singleplayer test client",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "authorList": ["MevdZ"]
+}
+]
