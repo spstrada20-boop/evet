@@ -1,3 +1,5 @@
+import dev.architectury.pack200.java.Pack200Adapter
+
 plugins {
     id 'idea'
     id 'java'
@@ -22,7 +24,7 @@ loom {
         remove(getByName('server'))
     }
     forge {
-        pack200Provider.set(dev.architectury.pack200.java.Pack200Adapter())
+        pack200Provider.set(new Pack200Adapter())
     }
 }
 
@@ -43,3 +45,4 @@ tasks.named('processResources', ProcessResources).configure {
         expand(version: project.version, mcversion: '1.8.9')
     }
 }
+
