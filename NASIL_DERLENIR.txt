@@ -1,0 +1,19 @@
+MevdZ GHST Beta - Java mod (Minecraft 1.8.9 Forge)
+
+Modun kaynak kodlari Java ile yazilmistir. Gradle yapilandirmasi Groovy DSL kullanir:
+  build.gradle
+  settings.gradle
+
+GitHub Actions ile derlemek icin:
+1) GitHub'da bos bir repo olustur.
+2) Bu klasordeki tum dosyalari (gizli .github klasoru dahil) repo ana dizinine yukle.
+3) Actions sekmesinde Build workflow'unun tamamlanmasini bekle.
+4) Build artifact'indan MevdZGHSTBeta-1.0-beta.jar dosyasini indir.
+5) Jar'i .minecraft\\mods klasorune at ve Forge 1.8.9 (11.15.1.2318) profiliyle oyunu baslat.
+
+Tuslar
+  RSHIFT : menu
+  J : AimAssist   K : AutoClicker   R : Sprint
+  G : Fullbright  H : ESP           F : Ucus
+
+Not: Mod ozelliklerini tek kisilik dunyada veya izinli sunucularda kullan.

@@ -1,0 +1,33 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kodu al
+        uses: actions/checkout@v4
+
+      - name: Java 8 kur
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 8
+
+      - name: Gradle kur
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: 7.6.4
+
+      - name: Derle
+        run: gradle build --no-daemon
+
+      - name: Jar dosyasini yukle
+        uses: actions/upload-artifact@v4
+        with:
+          name: MevdZGHSTBeta
+          path: build/libs/*.jar
